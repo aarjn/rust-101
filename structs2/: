@@ -1,0 +1,15 @@
+struct User {
+    name: String,
+    place: String,
+    age: u8,
+}
+
+fn main() {
+    let user1 = User {
+        name: String::from("pieg"),
+        place: String::from("del"),
+        age: 32,
+    };
+    dbg!(user1);
+    println!("Hello, world!");
+}
